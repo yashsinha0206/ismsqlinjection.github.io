@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Address book</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+	
+		<nav>
+			<li><a href="#signUp">Sign Up</a></li>
+			<li><a href="#search">Search</a></li><br><br>
+		</nav>
+		
+		<div id="signUp">
+			<form action="index.php" method="post">
+				<input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+				<input type="password" name="password" id="password" placeholder="Enter your password"><br><br>
+				<!-- <input type="text" name="add1" id="add1" placeholder="Enter your address - line 1"><br><br> -->
+				<!-- <input type="text" name="add2" id="add2" placeholder="Enter your address - line 2"><br><br> -->
+				<!-- <input type="text" name="city" id="city" placeholder="Enter your city"><br><br> -->
+				<!-- <input type="text" name="state" id="state" placeholder="Enter your state"><br><br> -->
+				<!-- <input type="email" name="email" id="email" placeholder="Enter your email i"><br><br> -->
+				<input type="submit" value="Submit" name="signUp"><br><br>
+				<!-- <input type="submit" value="Update" name="update"><br><br> -->
+				<!-- <input type="submit" value="Delete" name="delete"><br><br> -->
+			</form>
+		</div>
+		
+	
+
+	</body>
+</html>
+
+<?php
+    include("index.php");
+?>
